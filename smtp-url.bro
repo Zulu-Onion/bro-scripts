@@ -48,7 +48,7 @@ export {
 	const suspicious_file_extensions = /\.([rR][aA][rR]|[eE][xX][eE]|[zZ][iI][pP])$/ &redef;
 	const suspicious_urls = /googledocs?/ &redef;
 
-	const ignore_file_types = /\.([gG][iI][fF]|[pP][nN][gG]|[jJ][pP][gG]|[xX][mM][lL]|[jJ][pP][eE]?[gG]|[cC][sS][sS])$/ &redef;
+	const ignore_file_types = /\.([gG][iI][fF]|[pP][nN][gG]|[xX][mM][lL]|[jJ][pP][eE]?[gG]|[cC][sS][sS])$/ &redef;
 
 	## The following 
 	const ignore_mail_originators: set[subnet] = { } &redef;
